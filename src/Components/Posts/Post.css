@@ -1,0 +1,42 @@
+.main{
+
+  margin-left: 30px;
+  padding: 0;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  flex-direction: row;
+  justify-content: space-between ;
+} 
+
+
+
+.card {
+  width: 280px;
+  height: 330px;
+  margin: 28px;
+  border-radius: 8px;
+  overflow: hidden;
+  border:2px ridge;
+  border-color: rgb(222, 14, 14);
+} 
+
+
+
+.pic{
+  width: 150px;
+  height: 150px;
+  margin-left: 18px;
+  object-fit: contain;
+  margin-top: 15px;
+  
+  border-color: rgb(240, 1, 1);
+
+  
+}
+
+
+.price{
+  font-weight: bolder;
+  font-size: large;
+}
